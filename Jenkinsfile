@@ -22,7 +22,7 @@
     }
    stage('upload artifact'){
         steps{
-            sh 'curl --upload-file -u admin:devops -v http://198.58.119.40:8081/repository/Douglas-repo/'
+            sh 'curl --upload-admin:devops -v http://198.58.119.40:8081/repository/Douglas-repo/'
         }
     }
 
